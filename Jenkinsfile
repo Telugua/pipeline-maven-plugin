@@ -11,7 +11,7 @@ pipeline {
     }
     stage ('DockerBuild') {
       steps {
-        sh 'docker buid .'
+        sh 'docker build .'
         /*echo 'myproject'*/
       } 
      
