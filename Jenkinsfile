@@ -1,7 +1,7 @@
 #!/usr/bin/groovy
 
 pipeline {
-  agent
+  agent any
   stages {
     stage ('Build') {
       steps {
