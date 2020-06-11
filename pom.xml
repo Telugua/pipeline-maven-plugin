@@ -33,7 +33,7 @@
     </parent>
     <artifactId>pipeline-maven-parent</artifactId>
     <version>${revision}${changelist}</version>
-    <packaging>pom</packaging>
+    <packaging>jar</packaging>
 
     <name>Pipeline Maven Integration Plugin Parent</name>
     <description>
