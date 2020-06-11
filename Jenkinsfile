@@ -8,6 +8,12 @@ pipeline {
         sh 'mvn clean install -DskipTests=true'
         /*echo 'myproject'*/
       }
+    stage ('DockerBuild') {
+      steps {
+        sh 'docker -v'
+        /*echo 'myproject'*/
+      } 
+     
     }
   }
 }
