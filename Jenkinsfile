@@ -3,7 +3,19 @@
 */
 /* buildPlugin(platforms: ['highmem']) */
 
-stage ('Install') {
-        //will run the build without tests as they are tested in PR build stage
-        sh "mvn clean install -DskipTests=true"
-       }
+pipeline {
+
+    stages {
+        
+    stage('Build') {
+           steps {
+            dir ('myproject') {
+                 
+                sh 'mvn clean install'
+                               }   
+                  } 
+       
+                    }
+            }
+    
+          }
