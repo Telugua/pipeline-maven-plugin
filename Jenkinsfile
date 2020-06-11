@@ -9,8 +9,8 @@ pipeline {
                               steps {
                                         dir ('myproject') {
                                                   sh 'mvn clean install'
-                                        }   
-                              } 
+                                        }
+                              }
                     }
           }
 }
