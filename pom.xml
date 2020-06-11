@@ -33,7 +33,7 @@
     </parent>
     <artifactId>pipeline-maven-parent</artifactId>
     <version>3.8.3-SNAPSHOT</version>
-    <packaging>hpi</packaging>
+    <packaging>pom</packaging>
 
     <name>Pipeline Maven Integration Plugin Parent</name>
     <description>
