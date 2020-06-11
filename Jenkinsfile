@@ -1,5 +1,18 @@
 #!/usr/bin/groovy
+
 pipeline {
+  agent
+  stages {
+    stage ('Build') {
+      steps {
+        echo 'myproject'
+      }
+    }
+  }
+}
+
+
+/* pipeline {
           stages {
                     stage('Build') {
                               steps {
@@ -9,4 +22,4 @@ pipeline {
                               }
                     }
           }
-}
+} */
